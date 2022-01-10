@@ -10,6 +10,8 @@ const blueColor = () =>{
         removeClasses()
         div.classList.add('blue')} 
 }
+
+
 const purpleColor = () =>{
     div = document.getElementById("div2")
     if(div.classList.contains('deFault')){
@@ -22,6 +24,8 @@ const purpleColor = () =>{
         removeClasses()
         div.classList.add('purple')} 
 }
+
+
 const violetColor = () =>{
     div = document.getElementById("div2")
     if(div.classList.contains('deFault')){
@@ -34,6 +38,8 @@ const violetColor = () =>{
         removeClasses()
         div.classList.add('blueViolet')}  
 }
+
+
 const darkblueColor = () =>{
     div = document.getElementById("div2")
     if(div.classList.contains('deFault')){

@@ -10,6 +10,8 @@ const redColor = () =>{
         removeClasses()
         div.classList.add('red')} 
 }
+
+
 const pinkColor = () =>{
     div = document.getElementById("div1")
     if(div.classList.contains('deFault')){
@@ -22,6 +24,8 @@ const pinkColor = () =>{
         removeClasses()
         div.classList.add('pink')} 
 }
+
+
 const chockColor = () =>{
     div = document.getElementById("div1")
     if(div.classList.contains('deFault')){
@@ -34,6 +38,8 @@ const chockColor = () =>{
         removeClasses()
         div.classList.add('chock')}  
 }
+
+
 const blackColor = () =>{
     div = document.getElementById("div1")
     if(div.classList.contains('deFault')){

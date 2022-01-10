@@ -8,3 +8,11 @@
     width: 180px;
     padding: 80px 75px;
 }
+
+.width{
+    width: 250px;
+}
+
+.point{
+    cursor: pointer;
+}

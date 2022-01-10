@@ -10,6 +10,8 @@ const green1Color = () =>{
         removeClasses()
         div.classList.add('green1')} 
 }
+
+
 const green2Color = () =>{
     div = document.getElementById("div3")
     if(div.classList.contains('deFault')){
@@ -22,6 +24,8 @@ const green2Color = () =>{
         removeClasses()
         div.classList.add('green2')} 
 }
+
+
 const green3Color = () =>{
     div = document.getElementById("div3")
     if(div.classList.contains('deFault')){
@@ -34,6 +38,8 @@ const green3Color = () =>{
         removeClasses()
         div.classList.add('green3')}  
 }
+
+
 const green4Color = () =>{
     div = document.getElementById("div3")
     if(div.classList.contains('deFault')){
