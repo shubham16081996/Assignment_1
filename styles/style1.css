@@ -1,0 +1,60 @@
+.deFault{
+    background-color: gainsboro;
+}
+
+
+.red{
+    background-color: red;
+}
+.pink{
+    background-color: deeppink;
+}
+.chock{
+    background-color: chocolate;
+}
+.black{
+    background-color: black;
+}
+
+
+
+.blue{
+    background-color: blue;
+}
+.purple{
+    background-color: purple;
+}
+.blueViolet{
+    background-color: blueviolet;
+}
+.darkblue{
+    background-color: darkblue;
+}
+
+
+.green1{
+    background-color: rgb(85, 236, 25);
+}
+.green2{
+    background-color: greenyellow;
+}
+.green3{
+    background-color: rgb(6, 248, 208);
+}
+.green4{
+    background-color: darkgreen;
+}
+
+
+.yellow1{
+    background-color: yellow ;
+}
+.yellow2{
+    background-color: rgb(226, 226, 159);
+}
+.yellow3{
+    background-color: rgb(243, 224, 118);
+}
+.yellow4{
+    background-color: rgba(255, 196, 0, 0.986) ;
+}

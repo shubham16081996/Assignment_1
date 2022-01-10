@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport">
+
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="styles/style1.css">
+    <link rel="stylesheet" href="styles/style2.css">
+
+    <title>Document</title>
+
+</head>
+
+<!-- path for Javascript functions for changing div colors -->
+<script src="/DivFunctionsJS/removeAllClasses.js"></script>
+<script src="/DivFunctionsJS/div1Colors.js"></script>
+<script src="/DivFunctionsJS/div2Colors.js"></script>
+<script src="/DivFunctionsJS/div3Colors.js"></script>
+<script src="/DivFunctionsJS/div4Colors.js"></script>
+
+<body>
+
+    <div class="container bg-light mt-5">
+        <div class="row">
+            <div class="col-sm-6">
+                Div 1 Colors
+                <div class="d-flex my-2">
+                    <button onclick="redColor()" class="mx-1 red btnStyles"></button>
+                    <button onclick="pinkColor()" class="mx-1 pink btnStyles"></button>
+                    <button onclick="chockColor()" class="mx-1 chock btnStyles"></button>
+                    <button onclick="blackColor()" class="mx-1 black btnStyles"></button>
+                </div>
+                <hr>
+                Div 2 Colors
+                <div class="d-flex my-2">
+                    <button onclick="blueColor()" class="mx-1 blue btnStyles"></button>
+                    <button onclick="purpleColor()" class="mx-1 purple btnStyles"></button>
+                    <button onclick="violetColor()" class="mx-1 blueViolet btnStyles"></button>
+                    <button onclick="darkblueColor()" class="mx-1 darkblue btnStyles"></button>
+                </div>
+                <hr>
+                Div 3 Colors
+                <div class="d-flex my-2">
+                    <button onclick="green1Color()" class="mx-1 green1 btnStyles"></button>
+                    <button onclick="green2Color()" class="mx-1 green2 btnStyles"></button>
+                    <button onclick="green3Color()" class="mx-1 green3 btnStyles"></button>
+                    <button onclick="green4Color()" class="mx-1 green4 btnStyles"></button>
+                </div>
+                <hr>
+                Div 4 Colors
+                <div class="d-flex my-2">
+                    <button onclick="yellow1Color()" class="mx-1 yellow1 btnStyles"></button>
+                    <button onclick="yellow2Color()" class="mx-1 yellow2 btnStyles"></button>
+                    <button onclick="yellow3Color()" class="mx-1 yellow3 btnStyles"></button>
+                    <button onclick="yellow4Color()" class="mx-1 yellow4 btnStyles"></button>
+                </div>
+                <hr>
+
+            </div>
+            <div class="col-sm-6">
+                <div class="d-flex mt-2">
+                    <div class="mx-1 deFault divStyles" id="div1">Div1</div>
+                    <div class="mx-1 deFault divStyles" id="div2">Div2</div>
+                </div>
+                <div class="d-flex">
+                    <div class="mx-1 deFault my-2 divStyles" id="div3">Div3</div>
+                    <div class="mx-1 deFault my-2 divStyles" id="div4">Div4</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
