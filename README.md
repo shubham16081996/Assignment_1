@@ -1,4 +1,4 @@
-1.Clone projcct using command
+1.Clone project using command
 >git clone https://github.com/shubham16081996/ChnageDivColors.git
 (in Directory of Your Choice)
 2.Open in VS CODE
